@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Rune Tray",
+  "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+  "description": "Quick access to rune",
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "content_scripts": [],
+  "browser_action": {
+    "default_icon": {
+      "38": "button/rune_icon_38.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "RuneAudio"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "robin.frome@gmail.com"
+    }
+  }
+}
